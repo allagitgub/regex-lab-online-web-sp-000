@@ -6,6 +6,7 @@ describe "Working with Regular expressions" do
       match = %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
 
       match.each do |word|
+        puts word
         puts starts_with_a_vowel?(word)
         expect(starts_with_a_vowel?(word)).to be(true)
       end
