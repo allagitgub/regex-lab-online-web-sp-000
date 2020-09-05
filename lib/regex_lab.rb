@@ -17,5 +17,3 @@ end
 def valid_phone_number?(phone)
   phone.match(/^([0-9\(\)\/\+ \-]*)$/) != nil
 end
-
-starts_with_a_vowel?("afiget")
