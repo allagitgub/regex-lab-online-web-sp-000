@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-puts word.match(/\b(aeiou)/)
+puts word.match(/\b(a|e|i|o|u)/)
   word.match(/\b(a|e|i|o|u)/) != nil
 end
 
