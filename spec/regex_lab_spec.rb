@@ -15,7 +15,6 @@ describe "Working with Regular expressions" do
      makeshift Palazzi sixfold Truth }
 
       do_not_match.each do |word|
-        puts starts_with_a_vowel?(word)
         expect(starts_with_a_vowel?(word)).to be(false)
       end
     end
