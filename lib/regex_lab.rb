@@ -1,4 +1,4 @@
-def starts_with_a_vowel?(word)puts word.match(/\b(a|e|i|o|u)/)
+def starts_with_a_vowel?(word)
   word.match(/\b(a|e|i|o|u)/) != nil
 end
 
